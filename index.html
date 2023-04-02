@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+<header>
+	<div class="container">
+		<a href="index.html">
+			<div class="logo">
+				<img src="img/logo.png">
+				ARAL SEA
+			</div>
+		</a>
+		<ul>
+			<a href="statistics.html"><li>СТАТИСТИКА</li></a>
+			<a href="bibliography.html"><li>РЕСУРСТАР</li></a>
+		</ul>
+	</div>
+</header>
+<div class="header-video">
+	<video id="myVideo" class="backvideo" autoplay muted loop>
+		<source src="img/background (2).mp4" type="video/mp4">
+		<div class="shadow"></div>
+	</video>
+</div>
+
+<div class="firstScreen">
+	<div class="fs-text">
+		<div class="fs-title">
+			Аралды құтқарайық
+		</div>
+		<div class="fs-subtitle">
+			Әлемдегі 4 теңізден ақ құмға дейін
+		</div>
+	</div>
+	<button id="myBtn" onclick="myFunction()" class="pause">
+		Пауза
+	</button>
+</div>
+
+<script>
+	// Get the video
+	var video = document.getElementById("myVideo");
+
+	// Get the button
+	var btn = document.getElementById("myBtn");
+
+	// Pause and play the video, and change the button text
+	function myFunction() {
+	  if (video.paused) {
+	    video.play();
+	    btn.innerHTML = "Пауза";
+	  } else {
+	    video.pause();
+	    btn.innerHTML = "Жалғастыру";
+	  }
+	}
+</script>
+
+<div class="team">
+	<div class="container">
+		<div class="team-title">БІЗДІҢ КОМАНДАМЫЗ</div>
+		<div class="subtitle">
+			Біздің командада жобамызға жаны мен тәнін берген адамдар, осы саланың тәжірибелі мамандары бар.
+		</div>
+		<div class="team-cards">
+			<div class="team-card">
+				<img src="img/aidar.png">
+				<div class="team-card-title">
+					Беготаев Айдар
+				</div>
+				<div class="team-card-subtitle">
+					Веб-сайт дизайнері
+				</div>
+			</div>
+			<div class="team-card">
+				<img src="img/akylai.png">
+				<div class="team-card-title">
+					Асанканова Акылай
+				</div>
+				<div class="team-card-subtitle">
+					Зерттеуші
+				</div>
+			</div>
+			<div class="team-card">
+				<img src="img/kamila.png">
+				<div class="team-card-title">
+					Таубаева Камила
+				</div>
+				<div class="team-card-subtitle">
+					Статистик
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="disaster">
+	<div class="container">
+		<div class="disaster-top">
+			<div class="disaster-text">
+				<div class="disaster-title">
+					Орталық Азияның экологиялық апаты
+				</div>
+				<div class="disaster-intro">
+					Арал теңізі бір кездері Қазақстан мен Өзбекстан арасында орналасқан әлемдегі ең үлкен төртінші көл болды. Алайда 1960 жылдары Кеңес Одағы Арал теңізін құйып тұрған екі өзеннің – Әмудария мен Сырдарияның бағытын іргесіндегі қуаң аймақты суару мақсатында бұрып жіберді. Бұл ауытқу теңіз көлемінің тез азаюына әкеліп соқты және ол алаңдатарлық жылдамдықпен кішірейе бастады (КГБУ ЦУР, 2019).
+				</div>
+			</div>
+			<div class="disaster-image">
+				<img src="img/disaster.png">
+			</div>
+		</div>
+		<div class="disaster-cards">
+			<div class="disaster-card">
+				<div class="disaster-percent">
+					15%
+				</div>
+				<div class="disaster-card-title">
+					Климаттық<br> факторларға<br> байланысты
+				</div>
+			</div>
+			<div class="disaster-card">
+				<div class="disaster-percent">
+					23%
+				</div>
+				<div class="disaster-card-title">
+					Суаруға <br>арналған су<br> ысыраптарынан
+				</div>
+			</div>
+			<div class="disaster-card">
+				<div class="disaster-percent">
+					62%
+				</div>
+				<div class="disaster-card-title">
+					Cудың жер<br> қойнауына <br>сүзілуінен
+				</div>
+			</div>
+		</div>
+		<a target="_blank" href="https://www.zin.ru/publications/books/invertebrates_aral/%D0%9C%D0%BD%D0%BE%D0%B3%D0%BE%D0%BB%D0%B5%D1%82%D0%BD%D0%B8%D0%B5_%D0%B8%D0%B7%D0%BC%D0%B5%D0%BD%D0%B5%D0%BD%D0%B8%D1%8F_%D1%84%D0%B0%D1%83%D0%BD%D1%8B_%D1%81%D0%B2%D0%BE%D0%B1%D0%BE%D0%B4%D0%BD%D0%BE%D0%B6%D0%B8%D0%B2%D1%83%D1%89%D0%B8%D1%85_%D0%B2%D0%BE%D0%B4%D0%BD%D1%8B%D1%85_%D0%B1%D0%B5%D1%81%D0%BF%D0%BE%D0%B7%D0%B2%D0%BE%D0%BD%D0%BE%D1%87%D0%BD%D1%8B%D1%85_%D0%90%D1%80%D0%B0%D0%BB%D1%8C%D1%81%D0%BA%D0%BE%D0%B3%D0%BE_%D0%BC%D0%BE%D1%80%D1%8F.pdf" class="disaster-link">
+			<img src="img/more.png">
+		</a>
+	</div>
+</div>
+<div class="table">
+	<div class="container">
+		<img class="table-img"src="img/tablestat.png" >
+		<a target="_blank" href="https://www.zin.ru/publications/books/invertebrates_aral/%D0%9C%D0%BD%D0%BE%D0%B3%D0%BE%D0%BB%D0%B5%D1%82%D0%BD%D0%B8%D0%B5_%D0%B8%D0%B7%D0%BC%D0%B5%D0%BD%D0%B5%D0%BD%D0%B8%D1%8F_%D1%84%D0%B0%D1%83%D0%BD%D1%8B_%D1%81%D0%B2%D0%BE%D0%B1%D0%BE%D0%B4%D0%BD%D0%BE%D0%B6%D0%B8%D0%B2%D1%83%D1%89%D0%B8%D1%85_%D0%B2%D0%BE%D0%B4%D0%BD%D1%8B%D1%85_%D0%B1%D0%B5%D1%81%D0%BF%D0%BE%D0%B7%D0%B2%D0%BE%D0%BD%D0%BE%D1%87%D0%BD%D1%8B%D1%85_%D0%90%D1%80%D0%B0%D0%BB%D1%8C%D1%81%D0%BA%D0%BE%D0%B3%D0%BE_%D0%BC%D0%BE%D1%80%D1%8F.pdf" class="disaster-link">
+			<img src="img/more.png">
+		</a>
+	</div>
+
+</div>
+<div class="measures">
+	<div class="container">
+		<div class="card">
+		  <div class="card-side front">
+		    <div class="measures-title">
+					Көкарал бөгеті – <br>
+					Аралдың негізгі қорғаушысы  
+			</div>
+		  </div>
+		  <div class="card-side back">
+		    <div>Көкарал бөгеті – Аралды сақтап қалудың бір жолы. 2-суретте оның масштабталатынын көруге болады. Кабардин-Балқар мемлекеттік университеті (2019) 1960 жылы балық аулау шарықтау шегіне жеткенін, 40 мың тонна балық аулағанын растады, бірақ 1980 жылдардың ортасында балық өнеркәсібі толығымен жойылды, бұл 60 мыңнан астам жұмыс орнын жоғалтуға әкелді. Қазақстан мен Қарақалпақстан Республикасы аумағында Арал өңірінде 10 балық зауыты, 1 балық консерві зауыты және 65-тен астам балық қабылдау пункттері жұмыс істеді. Кейіннен «Сырдария мен Солтүстік Арал теңізінің арнасын реттеу» жобасын жүзеге асырудың арқасында Қазақстанда Кіші Аралдағы су деңгейін реттеуге мүмкіндік беретін гидроқақпасы бар Көкарал бөгеті салынды. Осы бөгеттің арқасында Кіші Аралдағы су деңгейі абсолюттік белгіден 42 метрге дейін көтеріліп, судың тұздылығы азайып, кәсіптік балық түрлерін өсіруге мүмкіндік туғызды. 2007 жылы Кіші Аралда балық аулау 1910 тоннаны құрады, оның ішінде 640 тонна камбала және тұщы суда тұщы балықтар, мысалы, тұқы, көксерке, көксерке, табан және табан (КГБУ ЦУР, 2019). Мәліметтер, балық шаруашылығының жандануы 2005 жылы Көкарал бөгетінің құрылысы аяқталғаннан кейін мүмкін болды. Бұл кіші Аралдың құтқарушысы: 2006 жылдың наурыз айында «Кіші Аралдағы» су деңгейі 38,4 м-ден 42 м-ге дейін көтерілді, бөгет салынғаннан кейін бір жыл ішінде беті шамамен үштен біріне көтерілді, су ағыны Сырдария ескі кеңестік каналдарды ауыстырғаннан кейін көбейді. Бұл сайып келгенде өнеркәсіпті, ауыл шаруашылығын және Арал теңізінің экожүйесін ішінара қалпына келтіруге әкелді.</div>
+		  </div>
+		</div>
+	</div>
+</div>
+<div class="biodiversity">
+	<div class="container">
+		<div class="biodiversity-text">
+			<div class="biodiversity-title">
+				Биоәртүрліліктің жоғалуы
+			</div>
+			<div class="biodiversity-sub">
+				Судың тұздылығы мен уылдырық шашатын және қоректену орындарының жоғалуына байланысты балық түрлерінің саны 32-ден 6-ға дейін азайды. 1980 жылдардың ортасында кәсіптік балық аулау тоқтатылды, ал теңіз жағалауларында қазір галофиттер мен ксерофиттер басым. Жергілікті сүтқоректілер мен құстардың жартысы ғана қалды. 1990 жылдардың ортасына қарай бұрынғы теңіз жағалауларында ағаштардың, бұталардың және шөптердің бір кездері жайқалған жасыл жапырақтарын алмастыратын галофиттер мен ксерофиттердің сирек шоғырлары ғана көрінді (КГБУ ЦУР, 2019). 
+			</div>
+		</div>
+		<div class="biodiversity-img">
+			<img src="img/fish.png">
+		</div>
+	</div>
+</div>
+<div class="container">
+	<div class="biodiversity-sub a">
+		Арал теңізінің суды жоғалту жылдамдығының жоғарылауын булану мен теңіз бетінің температурасы арасындағы оң кері байланыспен түсіндіруге болады. Неғұрлым көп суды пайдалансақ, соғұрлым аудан азаяды. Аудан неғұрлым аз болса, судың аз мөлшері үшін күн сәулесінен көбірек қызады. Яғни, булану одан да жылдамдайды. Суды жоғалту салдарынан теңіз деңгейі төмендегендіктен, теңізге түсетін тұздар тұздардың ағуынан асып кетті, соның салдарынан теңіздің тұздылығы артты. Тұздылықтың артуы кейіннен өсімдік жамылғысының өзгеруімен қатар жүрді, өйткені теңіз тұздылығының артуы нәтижесінде өсімдіктер өле бастады. Құрғақшылық кезеңінде Арал өңірі айтарлықтай шөлейттенуге ұшырады. Шөлейттену жер мен табиғи ресурстардың бұдан былай пайдалану мүмкін болмайтын дәрежеге дейін азаюымен сипатталады. Соның салдарынан өңірдегі өсімдік жамылғысы кем дегенде 40 пайызға азайып кеткен. Сондай-ақ тұздың көбеюі топырақтың тұздануына әкеліп соқты, бұл онда қамыстың өсуіне мүмкіндік бермеді. Арал теңізінің құрғауы ауданда шаңды-тұзды дауылдардың санын едәуір арттырды. Тұздардың бір бөлігі қарқынды суарылатын және өңделетін топырақтарға түсіп, тіпті Арал өңірінен де алыс жерлердегі топырақтың бұзылуына әкелді. Бұл Арал маңындағы өсімдіктердің қырылуына әкелді (Томпсон, 2008).
+	</div>
+</div>
+<div class="container">
+	<div class="biodiversity-sub a">
+		Болашақ туралы айтатын болсақ, мамандар Арал теңізіне барынша қолайлы жағдай жасау талпыныстарын қалдырмайды. Негізі Өзбекстан экономикасының төрттен бір бөлігі мақтаға тәуелді болғанымен, Қазақстан ғана жұмыс істейді, кейде Дүниежүзілік банк көмектеседі. Арал теңізі ЮНЕСКО-ның «Бүкіләлемдік мұра нысаны» болды, бұл тұрақты халықаралық көмекке әкелді (Томпсон, 2008). Сондай-ақ, Сібір өзендерін Ресейдің, Қазақстан мен Орталық Азияның басқа аймақтарына бұру жөніндегі іске асырылмаған жоба бар, бұл Арал теңізіне су құюға оң әсерін тигізеді. Өзбекстан және Тәжікстан үкіметтерімен келіссөздер жүргізу қиынға соғатынымен, Амурдария мен Сырдария өзендерін реттеуді ұмытпау керек.
+	</div>
+</div>
+<div class="factors">
+	<div class="container">
+		<div class="factors-card">
+			<div class="factors-card-title">
+				Саяси
+			</div>
+			<div class="factors-card-subtitle">
+				Арал теңізінің бассейнін бөлетін Орталық Азия елдері арасындағы саяси ерік-жігер мен ынтымақтастықтың болмауы экожүйені қалпына келтірудегі елеулі кемшілік болып табылады. Алайда, Дүниежүзілік банк сияқты халықаралық ұйымдардың қаржыландыруы бұл мәселені шешуге мүмкіндік береді.
+			</div>
+		</div>	
+		<div class="factors-card">
+			<div class="factors-card-title">
+				Экологиялық
+			</div>
+			<div class="factors-card-subtitle">
+				Климаттың өзгеруі Арал теңізінің экожүйесін қалпына келтіруге айтарлықтай қауіп төндіреді, өйткені температураның жоғарылауы және жауын-шашынның азаюы судың одан әрі тапшылығына және шөлейттенуге әкеледі. Дегенмен, суды тұрақты басқару әдістерін қабылдау және енгізу бұл мәселені шешуге мүмкіндік береді.
+			</div>
+		</div>	
+		<div class="factors-card">
+			<div class="factors-card-title">
+				Экономикалық
+			</div>
+			<div class="factors-card-subtitle">
+				Кеңес Одағы мен Өзбекстанның ресурстарды тиімсіз басқару және су ресурстарын басқару саясаты Арал теңізінің құлдырауына және оның қазіргі жағдайына әкелді. Өнеркәсіптік және ауылшаруашылық жұмыстарының жалғасуы экожүйенің одан әрі деградациясына және оны қалпына келтірудің кешеуілдеуіне әкелуі мүмкін.
+			</div>
+		</div>	
+		<div class="factors-card">
+			<div class="factors-card-title">
+				Әлеуметтік
+			</div>
+			<div class="factors-card-subtitle">
+				Жұртшылықтың хабардарлығын арттыру және қалпына келтіру жобалары мен саясатын қолдауды арттыруға әкелетін Арал теңізінің экожүйесін қалпына келтіруді насихаттау қалпына келтіру бойынша табысты күш-жігерге мүмкіндік береді. Алайда, аймақтағы саяси тұрақсыздық пен қақтығыстар қалпына келтіру жұмыстарына кедергі келтіріп, су алу мен мақсатсыз пайдаланудың артуына әкелуі мүмкін.
+			</div>
+		</div>	
+	</div>
+</div>
+
+<div class="container">
+		<div class="footer">
+			<div class="footer-l">
+				
+			</div>
+			<div class="footer-r">
+				<div class="footer-card">
+					<div class="footer-question">
+						Коллаборация жасағыңыз келеді ме?
+					</div>
+					<div class="footer-subtitle">
+						Бізбен жұмыс істеу үшін
+					</div>
+					<div class="footer-title">
+						begotaev.a@nisa.edu.kz<br>
+						asankanova.a@nisa.edu.kz<br>
+						taubaeva.k@nisa.edu.kz
+					</div>
+				</div>
+				<div class="footer-card">
+					<div class="footer-question">
+						Сақтайсыңыз
+					</div>
+					<div class="footer-subtitle">
+						Сыни қажеттілік жағдайында
+					</div>
+					<div class="footer-title">
+						+7 777 473 2737<br>
+						+7 701 999 1297<br>
+						+7 778 681 2980
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<footer>
+		<div class="container">
+			<div class="footer-f">
+				Template By Begotaev Aidar 
+			</div>
+			<div class="footer-s">
+				© 2022-2023
+			</div>
+		</div>
+	</footer>
+</body>
+</html>
